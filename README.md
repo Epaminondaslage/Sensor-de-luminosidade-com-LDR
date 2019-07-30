@@ -7,6 +7,7 @@ Esse sistema pode ser aplicado, por exemplo, em conservas de pequenas plantaçõ
 # O LDR
 Um resistor dependente de luz ou fotorresistência, conhecido pela sigla inglesa LDR (Light Dependent Resistor), é um componente eletrônico passivo do tipo resistor variável, mais especificamente, é um resistor cuja resistência varia conforme a intensidade da luz (iluminamento) que incide sobre ele. Tipicamente, à medida que a intensidade da luz aumenta, a sua resistência diminui.
 O LDR é construído a partir de material semicondutor com elevada resistência elétrica. Quando a luz que incide sobre o semicondutor tem uma frequência suficiente, os fótons que incidem sobre o semicondutor libertam elétrons para a banda condutora que irão melhorar a sua condutividade e assim diminuir a resistência.
+![](LDR-800x800.jpg)
 
 
 # Componentes necessários
