@@ -17,7 +17,7 @@ O LDR é construído a partir de material semicondutor com elevada resistência 
 1 LED Vermelho,
 1 LED Amarelo
 
-# Diagrama
+# Diagrama (montagem)
 ![](Screenshot_132.png)
 
 
