@@ -8,4 +8,7 @@ Este projeto se trata da junção da função do resistor LDR (sensível à lumi
 1 LED Vermelho 
 1 LED Amarelo
 
+# Diagrama
+
+
 
