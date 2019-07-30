@@ -9,6 +9,11 @@ Este projeto se trata da junção da função do resistor LDR (sensível à lumi
 1 LED Amarelo
 
 # Diagrama
+![](Screenshot_132.png)
+
+
+É importante se certificar de que os fios estão conectados exatamente como no diagrama para evitar distorções do programa quando este é rodado.
+# Código
 
 
 
