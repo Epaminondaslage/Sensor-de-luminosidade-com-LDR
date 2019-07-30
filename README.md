@@ -7,7 +7,7 @@ Esse sistema pode ser aplicado, por exemplo, em conservas de pequenas plantaçõ
 1 Protobord, 
 1 LDR - Light Dependent Resistor (Resistor dependente de luz),  
 1 LED Vermelho,
-1 LED Amarelo,
+1 LED Amarelo
 
 # Diagrama
 ![](Screenshot_132.png)
