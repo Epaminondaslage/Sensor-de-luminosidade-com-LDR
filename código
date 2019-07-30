@@ -1,0 +1,77 @@
+// Define o pino analógico A0 , onde será lido o valor do sensor  
+int sensorAnalogPin = 0;   
+// Define uma variável qualquer para armazenar o valor lido do pino A0  
+int armazenaValor =  0;
+
+// Definindo pinos onde estão conectados os LED’s 
+const int ledVerde = 11; 
+const int ledAmarelo = 12; 
+const int ledVermelho = 13;
+
+void setup(){
+
+// Ativando o serial monitor que exibirá os valores lidos no sensor 
+Serial.begin(9600);
+
+// Definindo pinos digitais dos LED’s como de saída   
+pinMode(ledVerde,OUTPUT);   
+pinMode(ledAmarelo,OUTPUT);   
+pinMode(ledVermelho,OUTPUT); 
+} 
+
+void loop(){ 
+// Faz a leitura da porta analogica A0 e armazena na variável armazenaValor  
+int armazenaValor = analogRead(sensor AnalogPin);
+
+// Os valores da luminosidade podem ser alterados conforme a necessidade  
+// Luminosidade baixa   
+if (armazenaValor <  600) {     
+   apagaLeds(); 
+   digitalWrite(ledVermelho,HIGH);
+   } 
+   
+// Luminosidade média  
+   if (armazenaValor >= 600 && valor Sensor <= 850) {     
+   apagaLeds();     
+   digitalWrite(ledAmarelo,HIGH);  
+   }
+   
+// Luminosidade alta   
+   if (armazenaValor >  850) { 
+   apagaLeds();  
+   digitalWrite(ledVerde,HIGH);   
+   }
+   
+   //  Exibindo o valor do sensor no serial monitor.
+   Serial.print("Lendo valor... "); // Imprime no monitor serial   
+   Serial.println(valorSensor); // Mostra o valor lido pela porta serial    
+   delay(1000);
+   }
+   
+   // Apagar todos os leds de uma vez 
+   void apagaLeds() {   
+    digitalWrite(ledVerde,LOW);
+    digitalWrite(ledAmarelo,LOW);   
+    digitalWrite(ledVermelho,LOW); 
+    }
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
